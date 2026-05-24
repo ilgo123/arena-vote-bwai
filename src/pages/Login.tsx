@@ -1,5 +1,5 @@
 import { supabase } from '../supabaseClient';
-import { LogIn, Fingerprint } from 'lucide-react';
+import { Fingerprint } from 'lucide-react';
 
 export default function Login() {
   const handleGoogleLogin = async () => {
